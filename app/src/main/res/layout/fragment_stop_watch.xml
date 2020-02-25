@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#006699"
+    >
+
+    <TextView
+        android:text="@string/view_watch"
+        android:id="@+id/time_view"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="92sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="0dp"
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:text="@string/start"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/time_view"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/stop"
+        android:text="@string/stop"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/start"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reset"
+        android:id="@+id/reset"
+        android:layout_below="@+id/stop"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
